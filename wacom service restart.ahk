@@ -31,7 +31,7 @@
     RunWait,sc stop "WTabletServicePro", , Hide ; Stop Wacom Professional Service
     If (ErrorLevel != 0)
     {
-    	MsgBox, During process start, error %Errorlevel% occurred.
+    	MsgBox, During process stop, error %Errorlevel% occurred.
     }
 
     RunWait,sc start "WTabletServicePro", , Hide ; Start Wacom Professional Service
